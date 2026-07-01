@@ -1,0 +1,39 @@
+body {
+    background-color: #050505;
+}
+
+p {
+    margin: 10px;
+}
+
+a {
+    color: violet;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    background-color: #2e2e2e;
+    color: white;
+    margin: 75px 300px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-family: "Roboto Mono";
+}
+
+.header {
+    /* 25647a */
+    background-color: #25647a;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Roboto Mono";
+}
