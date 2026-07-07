@@ -2,17 +2,22 @@
 <html lang="en-ca">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="style.css" />
         <link
             href="https://fonts.googleapis.com/css?family=Roboto+Mono"
             rel="stylesheet"
         />
         <title>carrotstastegood</title>
+        <script type="module">
+          import { scaleimage } from "./script/img-scaling.mjs";
+          window.onload = () => scaleimage("img/providence-upscale.png", "75%");
+        </script>
     </head>
     <body>
         <header>
             <div class="header">
-                <h1 style="margin: 0px">carrotstastegood.ca</h1>
+                <h1 style="margin: 0%; font-size: clamp(1rem, 7vw, 2.5rem);">carrotstastegood.ca</h1>
                 <p>hai!! :3</p>
                 <a href="index.html">home</a>
                 <a href="aboutme.html">about</a>
@@ -22,7 +27,7 @@
         </header>
         <main>
             <div class="main">
-                <h1 style="text-align: center">home</h1>
+                <h1 style="text-align: center; margin: 0%; padding: 0%">home</h1>
                 <p>hellloo</p>
                 <p>
                     welcome to my website! basically my first real html project.
@@ -47,7 +52,8 @@
                 <img
                     src="img/providence-upscale.png"
                     title="the providence is my favorite enemy in ultrakill. look at it!"
-                    style="width: 25%"
+                    width="25%"
+                    id="requirescale"
                 />
                 <p>
                     about the website, you can find links to my stuff and also just
